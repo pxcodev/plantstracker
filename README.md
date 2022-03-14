@@ -4,7 +4,7 @@
 
 ### **The tool was developed as a PWA (progressive web application) which allows it to be installed on mobile and desktop devices.**
 
-## **Development**
+## **Development technologies**
 
 - ReactJs
 - TailWind
