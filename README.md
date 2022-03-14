@@ -40,7 +40,7 @@ npm run start
 
 ---
 
-## Screen Captures
+## Screenshots
 
 ![PlantsTracker](./src/assets/images/home.gif)
 ![hourhand](./src/assets/images/hourhand.png)
