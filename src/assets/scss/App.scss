@@ -1,0 +1,244 @@
+@import url("/src/assets/fonts/Poppins.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: black;
+}
+:root {
+	--b1: 0 0% 100%;
+	background-color: hsla(var(--b1) / var(--tw-bg-opacity, 1));
+	color: hsla(var(--bc) / var(--tw-text-opacity, 1));
+}
+.sideItems {
+	height: calc(100vh - 64px);
+}
+.content {
+	margin-left: 72px;
+}
+.frame__text {
+	font-size: 28px;
+	line-height: 119%;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #e9fbb0;
+	text-shadow: 0 3px 0 #eec27d, 0 6px 3px #914a26;
+	font-family: "Luckiest Guy";
+}
+.time__text {
+	text-shadow: 0 1px 0 #eec27d, 0 5px 2px #914a26;
+}
+
+#mensajes {
+	height: auto;
+}
+
+.relative {
+	position: relative;
+}
+.hero-1 {
+	position: relative;
+}
+.bg-home {
+	background-image: url(./../images/space.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.home {
+	height: 100vh;
+}
+.bg-home {
+	background-color: #140d38;
+}
+.hero-1 .bg-overlay {
+	opacity: 0.1;
+}
+.bg-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	opacity: 0.7;
+	background-color: #140d38;
+}
+.overflow-hidden {
+	overflow: hidden !important;
+}
+
+.bg-transparent {
+	background-color: transparent !important;
+}
+
+@keyframes ani {
+	100% {
+		background-position: 0 0;
+	}
+	0% {
+		background-position: 100vw 0;
+	}
+}
+
+.hero-1 .hero-1-bg {
+	background: url(./../images/bg-home-overlay.png) repeat-x 0 / 100% auto;
+	animation: ani 40s linear infinite;
+	animation-delay: 1s;
+	position: absolute;
+	left: 0;
+	width: 200%;
+	height: 100%;
+	background-repeat: repeat;
+	background-size: 50% 130%;
+}
+
+.btn__farm {
+	background: #01d6a3;
+	border: 4px solid #333;
+	box-shadow: 0 8px 0 rgb(0 0 0 / 20%), inset 0 -5px 0 #27a480, inset 0 5px 0 #70eee2;
+	border-radius: 36px;
+}
+.btn__action {
+	width: 168px;
+	height: 83px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	font-weight: 700;
+	outline: none;
+	border-radius: 33px;
+	border: 3px solid #333;
+	font-family: luckiest guy, cursive;
+	margin-left: 20px;
+}
+
+.anim ul {
+	animation: cambiar 7s infinite;
+}
+.anim {
+	z-index: 2;
+}
+
+@keyframes cambiar {
+	0% {
+		margin-top: 0;
+	}
+	20% {
+		margin-top: 0;
+	}
+
+	30% {
+		margin-top: -165px;
+	}
+
+	80% {
+		margin-top: -165px;
+	}
+
+	90% {
+		margin-top: 0;
+	}
+	100% {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.anim ul li img {
+		width: 55%;
+	}
+
+	.plant {
+		height: auto;
+		width: auto;
+	}
+	.plant img {
+		height: 120px;
+	}
+	.vs img {
+		width: 120px;
+	}
+	.vs {
+		margin-right: 20px;
+	}
+}
+
+/* styles for mobile browsers smaller than 480px; (iPhone) */
+@media only screen and (max-device-width: 480px) {
+	.anim {
+		height: 160px;
+	}
+	.anim ul {
+		animation: cambiar480px 7s infinite;
+	}
+	.anim ul li img {
+		height: 80%;
+		width: 80%;
+	}
+}
+@keyframes cambiar480px {
+	0% {
+		margin-top: 0;
+	}
+	20% {
+		margin-top: 0;
+	}
+
+	30% {
+		margin-top: -160px;
+	}
+
+	80% {
+		margin-top: -160px;
+	}
+
+	90% {
+		margin-top: 0;
+	}
+	100% {
+		margin-top: 0;
+	}
+}
+.vs {
+	animation: ocultar 7s infinite;
+}
+@keyframes ocultar {
+	0% {
+		opacity: 1;
+		// margin-left: 0;
+	}
+	20% {
+		opacity: 1;
+		// margin-left: 0;
+	}
+
+	30% {
+		opacity: 0.1;
+		// margin-left: -90px;
+	}
+
+	80% {
+		opacity: 0.1;
+		// margin-left: -90px;
+	}
+
+	90% {
+		opacity: 1;
+		// margin-left: 0;
+	}
+	100% {
+		opacity: 1;
+		// margin-left: 0;
+	}
+}
+.tracking-ini {
+	text-transform: uppercase;
+	font-size: 35px;
+	letter-spacing: 1.5px;
+	font-weight: 700;
+	font-family: luckiest guy, cursive;
+}

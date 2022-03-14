@@ -1,0 +1,206 @@
+{
+    "00":{
+        "element":"Fire",
+        "Hours": 48,
+        "LeBase": 400,
+        "suma":50
+    },
+    "01":{
+        "element":"Fire",
+        "Hours": 48,
+        "LeBase": 400,
+        "suma":50
+    },
+    "02":{
+        "element":"Ice",
+        "Hours": 60,
+        "LeBase": 500,
+        "suma":60
+    },
+    "03":{
+        "element":"Electro",
+        "Hours": 48,
+        "LeBase": 500
+    },
+    "04":{
+        "element":"Water",
+        "Hours": 108,
+        "LeBase": 950
+    },
+    "05":{
+        "element":"Water",
+        "Hours": 108,
+        "LeBase": 950
+    },
+    "06":{
+        "element":"Ice",
+        "Hours": 60,
+        "LeBase": 500,
+        "suma":60
+    },
+    "07":{
+        "element":"Fire",
+        "Hours": 48,
+        "LeBase": 400
+    },
+    "08":{
+        "element":"ELECTRO",
+        "Hours": 48,
+        "LeBase": 500
+    },
+    "09":{
+        "element":"Wind",
+        "Hours": 72,
+        "LeBase": 750
+    },
+    "10":{
+        "element":"Wind",
+        "Hours": 72,
+        "LeBase": 750
+    },
+    "11":{
+        "element":"Parasite",
+        "Hours": 120,
+        "LeBase": 900
+    },
+    "12":{
+        "element":"Parasite",
+        "Hours": 120,
+        "LeBase": 900
+    },
+    "13":{
+        "element":"Parasite",
+        "Hours": 120,
+        "LeBase": 900
+    },
+    "14":{
+        "element":"Dark",
+        "Hours": 192,
+        "LeBase": 1200
+    },
+    "15":{
+        "element":"Electro",
+        "Hours": 48,
+        "LeBase": 500
+    },
+    "16":{
+        "element":"Wind",
+        "Hours": 96,
+        "LeBase": 900
+    },
+    "17":{
+        "element":"Fire",
+        "Hours": 72,
+        "LeBase": 650
+    },
+    "18":{
+        "element":"Light",
+        "Hours": 240,
+        "LeBase": 1200
+    },
+    "19":{
+        "element":"Light",
+        "Hours": 240,
+        "LeBase": 1200
+    },
+    "20":{
+        "element":"Light",
+        "Hours": 312,
+        "LeBase": 1600
+    },
+    "21":{
+        "element":"Light",
+        "Hours": 312,
+        "LeBase": 1600
+    },
+    "22":{
+        "element":"Parasite",
+        "Hours": 168,
+        "LeBase": 1300
+    },
+    "23":{
+        "element":"Parasite",
+        "Hours": 168,
+        "LeBase": 1300
+    },
+    "24":{
+        "element":"Parasite",
+        "Hours": 168,
+        "LeBase": 1300
+    },
+    "25":{
+        "element":"Metal",
+        "Hours": 336,
+        "LeBase": 3500
+    },
+    "26":{
+        "element":"Metal",
+        "Hours": 336,
+        "LeBase": 3500
+    },
+    "27":{
+        "element":"Metal",
+        "Hours": 480,
+        "LeBase": 5500
+    },
+    "28":{
+        "element":"Metal",
+        "Hours": 480,
+        "LeBase": 5500
+    },
+    "29":{
+        "element":"Ice",
+        "Hours": 96,
+        "LeBase": 800
+    },
+    "30":{
+        "element":"Fire",
+        "Hours": 72,
+        "LeBase": 650
+    },
+    "31":{
+        "element":"Dark",
+        "Hours": 192,
+        "LeBase": 1200
+    },
+    "32":{
+        "element":"Electro",
+        "Hours": 60,
+        "LeBase": 650
+    },
+    "33":{
+        "element":"Dark",
+        "Hours": 216,
+        "LeBase": 1400
+    },
+    "34":{
+        "element":"Electro",
+        "Hours": 60,
+        "LeBase": 650
+    },
+    "35":{
+        "element":"Dark",
+        "Hours": 216,
+        "LeBase": 1400
+    },
+    "36":{
+        "element":"Water",
+        "Hours": 108,
+        "LeBase": 950
+    },
+    "37":{
+        "element":"Wind",
+        "Hours": 96,
+        "LeBase": 900
+    },
+    "38":{
+        "element":"Water",
+        "Hours": 120,
+        "LeBase": 1050
+    },
+    "39":{
+        "element":"Water",
+        "Hours": 120,
+        "LeBase": 1050
+    }
+}
